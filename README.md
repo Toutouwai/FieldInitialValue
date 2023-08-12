@@ -2,6 +2,8 @@
 
 For most field types, allows the definition of an initial value that is automatically set when pages are created.
 
+The initial value can be set in template context if you want a different initial value in different templates.
+
 Example for a "Countries" Page Reference field using AsmSelect:
 
 ![initial-value-1](https://github.com/Toutouwai/FieldInitialValue/assets/1538852/10617c98-872c-441f-aed1-f9fb3db82fd8)
