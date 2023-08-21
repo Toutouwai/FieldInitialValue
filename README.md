@@ -6,11 +6,11 @@ The initial value can be set in template context if you want a different initial
 
 Example for a "Countries" Page Reference field using AsmSelect:
 
-![initial-value-1](https://github.com/Toutouwai/FieldInitialValue/assets/1538852/10617c98-872c-441f-aed1-f9fb3db82fd8)
+![initial-value-1](https://github.com/Toutouwai/FieldInitialValue/assets/1538852/40f23798-f9ab-44cd-b79c-b1572902dde9)
 
 Example with explanatory notes in a CKEditor field:
 
-![initial-value-2](https://github.com/Toutouwai/FieldInitialValue/assets/1538852/3aea766b-efa5-411a-b09e-5aa32f7f2528)
+![initial-value-2](https://github.com/Toutouwai/FieldInitialValue/assets/1538852/bfae62e8-76e4-491b-a5fd-b78aa7c3b124)
 
 ## Differences from "Default value"
 
