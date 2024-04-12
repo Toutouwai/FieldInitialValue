@@ -78,6 +78,12 @@ class FieldInitialValue extends WireData implements Module, ConfigurableModule {
 		$dummyPage = $this->wire()->pages->get('/');
 		$f = $field->getInputfield($dummyPage);
 
+		// Remove attributes that would be unwanted for this config inputfield
+		$f->required = false;
+		$f->removeAttr('required');
+		$f->requiredIf = null;
+		$f->showIf = null;
+
 		// If InputfieldPage get specific Inputfield
 		if($f instanceof InputfieldPage) $f = $f->getInputfield();
 
