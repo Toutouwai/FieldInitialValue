@@ -88,6 +88,7 @@ class FieldInitialValue extends WireData implements Module, ConfigurableModule {
 		if($f instanceof InputfieldPage) $f = $f->getInputfield();
 
 		$initialValue = $field->fivInitialValue;
+		if($f instanceof InputfieldHasArrayValue && !$initialValue) $initialValue = [];
 		$isEmpty = $this->initialValueEmpty($initialValue);
 
 		// Set inputfield attributes
