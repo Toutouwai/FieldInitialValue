@@ -83,6 +83,8 @@ class FieldInitialValue extends WireData implements Module, ConfigurableModule {
 		$f->removeAttr('required');
 		$f->requiredIf = '';
 		$f->showIf = '';
+		$f->defaultToday = '';
+		$f->defaultValue = '';
 
 		// If InputfieldPage get specific Inputfield
 		if($f instanceof InputfieldPage) $f = $f->getInputfield();
